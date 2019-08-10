@@ -12,6 +12,13 @@ class Address {
 		this.state = st;
 		this.country = coun;
 	}
+
+	@Override
+	public String toString() {
+		return "Address [streetNum=" + streetNum + ", city=" + city + ", state=" + state + ", country=" + country + "]";
+	}
+	
+	
 }
 
 class StudentClass {
@@ -25,5 +32,14 @@ class StudentClass {
 		this.studentName = name;
 		this.studentAddr = addr;
 	}
+
+	@Override
+	public String toString() {
+		return "StudentClass [rollNum=" + rollNum + ", studentName=" + studentName + ", studentAddr=" + studentAddr
+				+ "]";
+	}
+
+	
+	
 
 }

@@ -7,12 +7,25 @@ public class ConstructorChaining {
 	}
 }
 
-class ConstructorChainingChild extends ConstructorChaining {
+class ConstructorChainingChild extends ConstructorChaining  {
 
 	ConstructorChainingChild() {
 
 		System.out.println("This is the ChildClass Constructor");
 	}
 
+	
+	
 	//Main class ===> Test.java
+}
+
+class ConstructorChainingChild2 extends ConstructorChainingChild{
+	
+	ConstructorChainingChild2() {
+
+		System.out.println("This is the ChildClassTwo Constructor");
+	}
+	
+
+	
 }
