@@ -1,9 +1,17 @@
 package com.example.logics;
 
-public class TestClass   {
-	
+abstract class Test {
+	static int i = 102;
+
+	static void TestMethod() {
+		System.out.println("hi !! I am good !!");
+	}
+}
+
+public class TestClass {
+
 	public static void main(String args[]) {
-//		TestOne.TestMethod();
-//		System.out.println("i = " + TestOne.i);
+		Test.TestMethod();
+		System.out.println("i = " + Test.i);
 	}
 }
